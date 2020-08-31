@@ -26,6 +26,7 @@
 # |    Date    | Version |         Description          |     Author     |
 # +------------+---------+------------------------------+----------------+
 # | 04/08/2020 |  1.0    | Creation of the program      | Luciano Soares |
+# | 31/08/2020 |  1.1    | Adding and editing comments  | Luciano Soares |
 # +------------+---------+------------------------------+----------------+
 #
 #
