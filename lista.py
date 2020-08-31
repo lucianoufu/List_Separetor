@@ -41,7 +41,20 @@ import logging
 logging.basicConfig(filename = 'list_logging.txt', level = logging.DEBUG, format = '%(asctime)s - %(levelname)s - %(message)s')
 logging.debug('Start program.')
 
-def fn_transform_list_into_string(list_paramter):
+##########################################################################################################################################################################################
+# fn_transform_list_into_string -- Take a list and transform her into a string, with each element seperate by coman and bethew the penultimo e ultimo is add the world 'and' not a comma #
+#                                                                                                                                                                                        #
+#                                                                                                                                                                                        #
+# Parameters                                                                                                                                                                             #
+#                                                                                                                                                                                        #
+# list_paramter - List that will transform into a string                                                                                                                                 #
+#                                                                                                                                                                                        #
+#                                                                                                                                                                                        #
+# Returns                                                                                                                                                                                #
+#                                                                                                                                                                                        #
+# A string with all elements.                                                                                                                                                            #
+##########################################################################################################################################################################################
+def fn_transform_list_into_string(list_paramter): 
     string = ''
     if len(list_paramter) == 1:
         return list_paramter[0]
