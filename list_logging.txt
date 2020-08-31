@@ -1,0 +1,14 @@
+2020-04-08 16:54:29,785 - DEBUG - Start program.
+2020-04-08 16:54:32,831 - DEBUG - ['teste']
+2020-04-08 16:54:33,794 - DEBUG - ['teste', 'para']
+2020-04-08 16:54:35,450 - DEBUG - ['teste', 'para', 'programa']
+2020-04-08 16:54:37,881 - DEBUG - ['teste', 'para', 'programa', 'arquivo']
+2020-04-08 16:54:39,210 - DEBUG - teste, para, programa and arquivo
+2020-04-08 16:54:39,210 - DEBUG - End program.
+2020-06-05 12:13:10,925 - DEBUG - Start program.
+2020-06-05 12:13:19,680 - DEBUG - ['Teste para lista']
+2020-06-05 12:13:26,932 - DEBUG - ['Teste para lista', 'Teste 2']
+2020-06-05 12:13:29,474 - DEBUG - ['Teste para lista', 'Teste 2', 'para']
+2020-06-05 12:13:31,016 - DEBUG - ['Teste para lista', 'Teste 2', 'para', 'lista']
+2020-06-05 12:13:33,168 - DEBUG - Teste para lista, Teste 2, para and lista
+2020-06-05 12:13:33,169 - DEBUG - End program.
