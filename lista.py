@@ -7,11 +7,11 @@
 # Author: Luciano Soares
 #
 #
-# Purpose: This program was crete by me to training the Python language.
+# Purpose: This program was creted by me to training the Python language.
 #
 #
 # Usage: This program keeps asking the user a value, while the user does not type 'exit' the program doesn't stop. The values typed by the user are stored in a list called 
-#        list_values. After that, the program calls the function fn_transform() that transform a list in one string, and returns this string. This string, contains a common 
+#        list_values. After that, the program calls the function fn_transform() that transform a list in one string and returns this string. This string contains a comma
 #        between the items from the list, and a word 'and' between the last and the penultimate item of the list.
 #
 #
@@ -41,19 +41,19 @@ import logging
 logging.basicConfig(filename = 'list_logging.txt', level = logging.DEBUG, format = '%(asctime)s - %(levelname)s - %(message)s')
 logging.debug('Start program.')
 
-##########################################################################################################################################################################################
-# fn_transform_list_into_string -- Take a list and transform her into a string, with each element seperate by coman and bethew the penultimo e ultimo is add the world 'and' not a comma #
-#                                                                                                                                                                                        #
-#                                                                                                                                                                                        #
-# Parameters                                                                                                                                                                             #
-#                                                                                                                                                                                        #
-# list_paramter - List that will transform into a string                                                                                                                                 #
-#                                                                                                                                                                                        #
-#                                                                                                                                                                                        #
-# Returns                                                                                                                                                                                #
-#                                                                                                                                                                                        #
-# A string with all elements.                                                                                                                                                            #
-##########################################################################################################################################################################################
+############################################################################################################################################################################################
+# fn_transform_list_into_string -- Take a list and transform her into a string, with each element separate by coma and between the penultimate and last is add the world 'and' not a comma  #
+#                                                                                                                                                                                          #
+#                                                                                                                                                                                          #
+# Parameters                                                                                                                                                                               #
+#                                                                                                                                                                                          #
+# list_paramter - List that will transform into a string                                                                                                                                   #
+#                                                                                                                                                                                          #
+#                                                                                                                                                                                          #
+# Returns                                                                                                                                                                                  #
+#                                                                                                                                                                                          #
+# A string with all elements.                                                                                                                                                              #
+############################################################################################################################################################################################
 def fn_transform_list_into_string(list_paramter): 
     string = ''
     if len(list_paramter) == 1:
